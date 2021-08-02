@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/cardview_shadow_end_color"
+            android:contentDescription="btn_start"
             app:srcCompat="@drawable/button" />
 
         <TextView
@@ -41,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/cardview_shadow_end_color"
+            android:contentDescription="btn_exit"
             app:srcCompat="@drawable/button" />
 
         <TextView

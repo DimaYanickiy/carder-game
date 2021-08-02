@@ -23,6 +23,7 @@
                 android:layout_width="76dp"
                 android:layout_height="84dp"
                 android:layout_gravity="center_horizontal|left"
+                android:contentDescription="player"
                 app:srcCompat="@drawable/people" />
 
             <ImageView
@@ -30,6 +31,7 @@
                 android:layout_width="42dp"
                 android:layout_height="62dp"
                 android:layout_weight="1"
+                android:contentDescription="cards"
                 android:rotation="121"
                 android:rotationX="42"
                 app:srcCompat="@drawable/cards_2" />
@@ -62,6 +64,7 @@
                 android:layout_width="80dp"
                 android:layout_height="62dp"
                 android:layout_weight="1"
+                android:contentDescription="cards"
                 android:rotation="-96"
                 android:rotationX="29"
                 app:srcCompat="@drawable/cards_2" />
@@ -71,6 +74,7 @@
                 android:layout_width="76dp"
                 android:layout_height="84dp"
                 android:layout_gravity="center_horizontal"
+                android:contentDescription="player"
                 app:srcCompat="@drawable/people" />
 
         </LinearLayout>
@@ -103,6 +107,7 @@
                 android:layout_width="76dp"
                 android:layout_height="84dp"
                 android:layout_gravity="center_horizontal|left"
+                android:contentDescription="player"
                 app:srcCompat="@drawable/people" />
 
             <ImageView
@@ -110,6 +115,7 @@
                 android:layout_width="85dp"
                 android:layout_height="74dp"
                 android:layout_weight="1"
+                android:contentDescription="cards"
                 android:rotation="33"
                 android:rotationX="25"
                 app:srcCompat="@drawable/cards_2" />
@@ -142,6 +148,7 @@
                 android:layout_width="85dp"
                 android:layout_height="74dp"
                 android:layout_weight="1"
+                android:contentDescription="cards"
                 android:rotation="-42"
                 android:rotationX="25"
                 app:srcCompat="@drawable/cards_2" />
@@ -151,6 +158,7 @@
                 android:layout_width="76dp"
                 android:layout_height="84dp"
                 android:layout_gravity="center_horizontal|left"
+                android:contentDescription="player"
                 app:srcCompat="@drawable/people" />
         </LinearLayout>
 
@@ -179,12 +187,14 @@
             android:id="@+id/main"
             android:layout_width="77dp"
             android:layout_height="84dp"
+            android:contentDescription="player"
             app:srcCompat="@drawable/people" />
 
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="32dp"
             android:layout_height="32dp"
+            android:contentDescription="cards"
             android:rotationX="25"
             app:srcCompat="@drawable/card_back" />
 
@@ -197,6 +207,7 @@
                 android:id="@+id/card_1"
                 android:layout_width="40dp"
                 android:layout_height="50dp"
+                android:contentDescription="card"
                 android:rotationX="25"
                 app:srcCompat="@drawable/c_1" />
 
@@ -204,6 +215,7 @@
                 android:id="@+id/card_2"
                 android:layout_width="40dp"
                 android:layout_height="50dp"
+                android:contentDescription="card"
                 android:rotationX="25"
                 app:srcCompat="@drawable/c_1" />
 
@@ -211,6 +223,7 @@
                 android:id="@+id/card_3"
                 android:layout_width="40dp"
                 android:layout_height="50dp"
+                android:contentDescription="card"
                 android:rotationX="25"
                 app:srcCompat="@drawable/c_1" />
 
@@ -218,6 +231,7 @@
                 android:id="@+id/card_4"
                 android:layout_width="40dp"
                 android:layout_height="50dp"
+                android:contentDescription="card"
                 android:rotationX="25"
                 app:srcCompat="@drawable/c_1" />
 
@@ -225,6 +239,7 @@
                 android:id="@+id/card_5"
                 android:layout_width="40dp"
                 android:layout_height="50dp"
+                android:contentDescription="card"
                 android:rotationX="25"
                 app:srcCompat="@drawable/c_1" />
         </LinearLayout>
@@ -239,6 +254,7 @@
                 android:id="@+id/imageView16"
                 android:layout_width="50dp"
                 android:layout_height="70dp"
+                android:contentDescription="card"
                 android:rotationY="90"
                 app:srcCompat="@drawable/c_1" />
 
@@ -246,6 +262,7 @@
                 android:id="@+id/imageView17"
                 android:layout_width="50dp"
                 android:layout_height="70dp"
+                android:contentDescription="card"
                 android:rotationY="90"
                 android:translationX="-15dp"
                 app:srcCompat="@drawable/c_1" />
@@ -311,6 +328,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/cardview_shadow_end_color"
+                android:contentDescription="fold"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/button" />
 
@@ -334,6 +352,7 @@
                 android:id="@+id/imageView18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="raise"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/button" />
 
@@ -378,6 +397,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/cardview_shadow_end_color"
+                android:contentDescription="raise"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/button" />
 
@@ -403,6 +423,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/cardview_shadow_end_color"
+                android:contentDescription="check"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/button" />
 
