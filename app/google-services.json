@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907402041871",
+    "project_id": "carder-5d692",
+    "storage_bucket": "carder-5d692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907402041871:android:322a905845c51fe2f0a17a",
+        "android_client_info": {
+          "package_name": "com.card.carder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907402041871-o3prdh4j5jolv47ibom83cl5c9dtloi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs1kxli0Vfgtg2ZBHPCyiTqV2WhjUVzVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907402041871-o3prdh4j5jolv47ibom83cl5c9dtloi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
